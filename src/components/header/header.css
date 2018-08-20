@@ -1,0 +1,49 @@
+
+
+.header{
+  position: relative;
+  height: 350px;
+  background-image: 
+    linear-gradient(to right,
+    rgba(32, 236, 219, 0.8)
+    ,rgba(133, 84, 248, 0.8)),
+    url("/pic2.jpg") ;
+  margin-bottom: 120px;
+}
+
+.header-title{
+  position: absolute;
+  left: 20%;
+  top:30%;
+  color:white;
+  font-weight: 200;
+  font-size:35px;
+  letter-spacing: 2px;
+
+}
+
+.header-button{
+  background: white;
+  color: rgb(221, 167, 253);
+  border: 2px solid rgb(221, 167, 253);
+  padding: 10px 20px;
+  border-radius: 100px;
+  position: absolute;
+  left:20%;
+  top:60%;
+  cursor: pointer;
+}
+
+.header-button:hover{
+  background: rgb(221, 167, 253);
+  color: white;
+  border: 2px solid rgb(221, 167, 253);
+ 
+}
+
+@media(max-width: 600px){
+  .header-title{
+    font-size:25px;
+  }
+}
+

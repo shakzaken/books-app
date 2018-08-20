@@ -1,0 +1,22 @@
+.footer{
+  position: relative;
+  height: 250px;
+  background-image: 
+    linear-gradient(to right,
+    rgba(32, 236, 219, 0.8)
+    ,rgba(133, 84, 248, 0.8)),
+    url("/pic2.jpg") ;
+}
+
+
+.footer-links{
+  
+  font-size: 20px;
+  position: absolute;
+  left:20%;
+  top:35%;
+}
+
+.footer-links a{
+  color:white;
+}

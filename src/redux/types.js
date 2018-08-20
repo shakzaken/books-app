@@ -1,0 +1,9 @@
+export const GET_BOOKS = 'GET_BOOKS';
+export const ADD_BOOK = 'ADD_BOOK';
+export const ADD_BOOK_FORM = 'ADD_BOOK_FORM';
+export const DELETE_BOOK = 'DELETE_BOOK';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const BOOKS_ERRORS = 'BOOKS_ERRORS';
+export const EDIT_BOOK = 'EDIT_BOOK';
+export const UPDATE_BOOK = 'UPDATE_BOOK';
+export const DELETE_BOOK_FORM = 'DELETE_BOOK_FORM';

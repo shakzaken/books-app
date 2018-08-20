@@ -1,0 +1,68 @@
+
+.delete-form-bg{
+  opacity: 0;
+  visibility: hidden;
+  display: block;
+  position: fixed;
+  left: 0;
+  top:0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 20;
+}
+.delete-form{
+  
+  display: block;
+  position: fixed;
+  left: 30%;
+  top: 30%;
+  width:30%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid rgb(218, 218, 218);
+  z-index: 120;
+  background: white;
+  transition: all .2s;
+  transform: scale(.2);
+}
+
+.delete-form-bg-open{
+  opacity: 1;
+  visibility: visible;
+}
+
+.delete-form-open{
+  transform: scale(1);
+}
+
+.delete-form-button{
+  margin: 0 20px;
+}
+
+@media(max-width: 1200px){
+  .delete-form{
+    left: 30%;
+    top: 30%;
+    width:40%;
+  }
+}
+
+
+@media(max-width: 900px){
+  .delete-form{
+    left: 20%;
+    top: 30%;
+    width:50%;
+  }
+}
+
+
+@media(max-width: 600px){
+  .delete-form{
+    left: 10%;
+    top: 30%;
+    width:80%;
+  }
+}
+
